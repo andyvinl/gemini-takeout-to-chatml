@@ -1,0 +1,22 @@
+# secrets and keys
+*.pem
+*.key
+.env
+.aws/
+# data, takeout exports and model weights
+*.jsonl
+*.zip
+*.gguf
+*.safetensors
+takeout*/
+bird_data/
+outputs/
+*-lora/
+*-lora-gguf/
+*_gguf/
+# local junk
+.venv/
+__pycache__/
+.DS_Store
+.Rhistory
+*.before-*
